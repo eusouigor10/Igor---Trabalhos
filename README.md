@@ -1,51 +1,15 @@
-# Introduction to GitHub
+# Trabalho de Física - 1º bimestre - Igor Gabriel Daré Grubisich
 
-_Get started using GitHub in less than an hour._
 
-## Welcome
+## Descrição do trabalho: 
+   O trabalho de física do primeiro bimestre se define em escolher um exercício do livro base da matéria, resolvê-lo e programá-lo, generalizando todas as situações possíveis as quais o exercício não contempla. No meu caso, escolhi o exercício 8 do capítulo 5 e fiz uma abstração da matéria do capítulo. A interface programada disponibiliza o cálculo de algumas resultantes a partir da entrada de uma determinada quantidade de forças (*int*), de uma determinada massa para um corpo (*double*) e das forças nos eixos x e y (*int*), numericamente proporcionais à primeira variável inserida. A cada nova iteração de inserção de força, uma variável ao lado do **F** (indicativo de força) aumenta de acordo com o índice da força a ser inserida, com o intuito de direcionar o usuário e para sua melhor organização. Além disso, para auxiliar também nesses quesitos citados, todas as forças já inseridas são visualmente registradas logo abaixo. Todas as verificações de possíveis erros de entrada ocorrem, com o aparecimento de uma janela indicando o erro que possivelmente aconteça.
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
+   As resultantes calculadas são, da primeira até a última, força resultante em cada eixo, força resultante dos eixos, aceleração resultante do corpo, ângulo de saída do corpo e o quadrante do círculo trigonométrico, demonstrando a direção e o sentido da saída. Para a força resultante nos eixos, foi usada uma simples soma dos elementos dos vetores que contém x e y. Já para a resultante entre esses vetores, foi usado o Teorema de Pitágoras. Na aceleração resultante, a Segunda Lei de Newton se fez presente por meio da fórmula *F = m * a*. Por fim, para o ângulo e o quadrante de saída, utilizei respectivamente a arctangente com os dados calculados e uma simples lógica de entendimento dos quadrantes. Para finalizar o programa e reiniciá-lo, há o botão *reset* em vermelho.
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
+   
+## Imagens da interface:
+![Captura de tela 2025-05-12 214550](https://github.com/user-attachments/assets/99069d67-c25d-4231-bd96-249776b1ba80)
+![Captura de tela 2025-05-12 214638](https://github.com/user-attachments/assets/8bc3dcac-b316-4b32-abe4-b5b2f21152ce)
+![Captura de tela 2025-05-12 214656](https://github.com/user-attachments/assets/bc088267-facc-4810-a65e-5e8f305e862b)
 
-In this exercise, you will:
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
-
-### How to start this exercise
-
-1. Right-click **Copy Exercise** and open the link in a new tab.
-
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
-
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.chttps://github.com/eusouigor10/Igor---Trabalhos/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
-
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
-
-   <a id="start-exercise" href="https://github.com/eusouigor10/Igor---Trabalhos/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
-
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
