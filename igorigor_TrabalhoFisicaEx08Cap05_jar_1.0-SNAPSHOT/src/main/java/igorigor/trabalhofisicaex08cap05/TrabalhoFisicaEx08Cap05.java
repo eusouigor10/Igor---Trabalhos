@@ -10,12 +10,6 @@ package igorigor.trabalhofisicaex08cap05;
  */
 public class TrabalhoFisicaEx08Cap05 {
     
-    double massa;
-
-    public TrabalhoFisicaEx08Cap05(double massa) {
-        this.massa = massa;
-    }
-    
     
     
 }
